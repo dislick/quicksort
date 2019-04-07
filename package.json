@@ -1,8 +1,8 @@
 {
   "name": "quicksort",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Educational Quicksort Implementation",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && tsc",
     "start:dev": "nodemon"
