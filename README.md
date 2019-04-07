@@ -8,11 +8,11 @@ Today (2019-04-07) while being sick I realized I have never implemented Quicksor
 
 > In efficient implementations it is not a stable sort, meaning that the relative order of equal sort items is not preserved. Quicksort can operate in-place on an array, requiring small additional amounts of memory to perform the sorting.
 
-[Source](https://en.wikipedia.org/wiki/Quicksort)
+[Wikipedia](https://en.wikipedia.org/wiki/Quicksort)
 
 ### Complexity
 
-| Class      | Performance  |
+| Behaviour  | Performance  |
 | ---------- | ------------ |
 | Worst-case | `O(n^2)`     |
 | Best-case  | `O(n log n)` |
@@ -37,4 +37,4 @@ After:    [ 4, 12, 19, 30, 33, 36, 37, 39, 42, 47 ]
 
 ## Tests
 
-You may run the test suite with `npm test` or `npm run test:watch`. A code coverage report may be generated using `npm run test:cov`. Coverage is currently at 100%.
+You may run the test suite with `npm test` or `npm run test:watch`. A code coverage report may be generated using `npm run test:cov`. Coverage is at 100%.
