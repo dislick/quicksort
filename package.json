@@ -7,7 +7,8 @@
     "build": "rm -rf dist && tsc",
     "start:dev": "nodemon",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage"
   },
   "author": "Patrick Muff",
   "license": "ISC",

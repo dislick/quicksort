@@ -34,3 +34,7 @@ Before:   [ 36, 12, 39, 30, 42, 19, 4, 37, 47, 33 ]
 Duration: 0.195ms
 After:    [ 4, 12, 19, 30, 33, 36, 37, 39, 42, 47 ]
 ```
+
+## Tests
+
+You may run the test suite with `npm test` or `npm run test:watch`. A code coverage report may be generated using `npm run test:cov`. Coverage is currently at 100%.
