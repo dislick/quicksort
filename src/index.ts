@@ -1,0 +1,1 @@
+const random = () => 4;
