@@ -1,6 +1,6 @@
 # Quicksort
 
-While being sick I realized I have never implemented Quicksort, even though having studied all _sorts_ of sorting algorithms. The goal of this purely educational repository is to implement a heavily annotated Quicksort in TypeScript.
+Today (2019-04-07) while being sick I realized I have never implemented Quicksort, even though having studied all _sorts_ of sorting algorithms. The goal of this purely educational repository is to implement a heavily annotated Quicksort in TypeScript.
 
 ## Introduction
 
@@ -20,7 +20,7 @@ While being sick I realized I have never implemented Quicksort, even though havi
 
 ## Implementation
 
-We are using the [Hoare partition scheme](https://en.wikipedia.org/wiki/Quicksort#Hoare_partition_scheme).
+We are using the [Hoare partition scheme](https://en.wikipedia.org/wiki/Quicksort#Hoare_partition_scheme). Have a look at the `src/quicksort.ts` source file to see the complete implementation.
 
 Run the following commands to see the algorithm in action:
 
