@@ -13,7 +13,9 @@
   "author": "Patrick Muff",
   "license": "ISC",
   "devDependencies": {
+    "@types/benchmark": "^1.0.31",
     "@types/jest": "^24.0.11",
+    "@types/microtime": "^2.1.0",
     "jest": "^24.7.1",
     "nodemon": "^1.18.10",
     "ts-jest": "^24.0.2",
@@ -32,5 +34,9 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "microtime": "^3.0.0"
   }
 }

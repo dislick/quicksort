@@ -30,10 +30,15 @@ npm run start:dev
 ```
 
 ```
-Before:   [ 36, 12, 39, 30, 42, 19, 4, 37, 47, 33 ]
-Duration: 0.195ms
-After:    [ 4, 12, 19, 30, 33, 36, 37, 39, 42, 47 ]
+Before:   [ 4, 21, 8, 17, 12, 10, 1, 6, 25, 12 ]
+Duration: 0.187ms
+After:    [ 1, 4, 6, 8, 10, 12, 12, 17, 21, 25 ]
+
+Array.prototype.sort() x 3,622 ops/sec ±0.58% (89 runs sampled)
+Quicksort x 10,092 ops/sec ±0.59% (88 runs sampled)
 ```
+
+The benchmark sorts a randomly shuffled array of 1000 numbers between 0 and 99999 using [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) and our Quicksort implementation. On Node.js v10 Quicksort outperforms the built-in sort by a factor of roughly 2.8x. Please note that the implementation used in this repository is not a stable sort.
 
 ## Tests
 
