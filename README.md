@@ -20,7 +20,7 @@ Today (2019-04-07) while being sick I realized I have never implemented Quicksor
 
 ## Implementation
 
-We are using the [Hoare partition scheme](https://en.wikipedia.org/wiki/Quicksort#Hoare_partition_scheme). Have a look at the `src/quicksort.ts` source file to see the complete implementation.
+I am using the [Hoare partition scheme](https://en.wikipedia.org/wiki/Quicksort#Hoare_partition_scheme). The `src/quicksort.ts` source file shows the complete implementation.
 
 Run the following commands to see the algorithm in action:
 
@@ -42,4 +42,4 @@ The benchmark sorts a randomly shuffled array of 1000 numbers between 0 and 9999
 
 ## Tests
 
-You may run the test suite with `npm test` or `npm run test:watch`. A code coverage report may be generated using `npm run test:cov`. Coverage is at 100%.
+The test suite is stared with `npm test` or `npm run test:watch`. A code coverage report can be generated using `npm run test:cov`. Coverage is at 100%.
