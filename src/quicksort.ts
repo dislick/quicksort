@@ -30,8 +30,11 @@ export function quicksort(
  * them. The loop is finished when `left` and `right` meet in the middle.
  */
 function partition(array: number[], start: number, end: number): number {
-  let middle = Math.floor((start + end) / 2);
-  let pivot = array[middle];
+  // First we need to pick a pivot, an element to which we compare all other
+  // elements. We take the element in the middle of `array` here.
+  let pivot = array[Math.floor((start + end) / 2)];
+
+  // Left and right are the indexes that move toward each other
   let left = start;
   let right = end;
 
@@ -51,6 +54,8 @@ function partition(array: number[], start: number, end: number): number {
     }
   }
 
+  // `left` is now the index of the pivot element. We need to return it so that
+  // the `quicksort()` function can continue recursively partition the array.
   return left;
 }
 
