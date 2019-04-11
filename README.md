@@ -10,7 +10,7 @@ Today (2019-04-07) while being sick I realized I have never implemented Quicksor
 
 [Wikipedia](https://en.wikipedia.org/wiki/Quicksort)
 
-### Complexity
+### Time Complexity
 
 | Behaviour  | Performance  |
 | ---------- | ------------ |
