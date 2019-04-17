@@ -38,5 +38,16 @@
   "dependencies": {
     "benchmark": "^2.1.4",
     "microtime": "^3.0.0"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts",
+    "ignore": [
+      "src/**/*.spec.ts",
+      "src/generated/**/*"
+    ],
+    "exec": "ts-node src/index.ts"
   }
 }
