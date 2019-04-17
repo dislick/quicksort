@@ -1,6 +1,6 @@
 {
   "name": "quicksort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Educational Quicksort Implementation",
   "main": "dist/index.js",
   "scripts": {
